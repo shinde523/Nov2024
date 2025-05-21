@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="classes" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="2" parallel="classes" name="EdgeTest(failed)">
+    <classes>
+      <class name="Test.Hometest">
+        <methods>
+          <include name="teardown"/>
+          <include name="prerequisite"/>
+          <include name="test_verifyTitle"/>
+        </methods>
+      </class> <!-- Test.Hometest -->
+      <class name="Test.LoginTest">
+        <methods>
+          <include name="test_InvalidLogin"/>
+          <include name="test_LoginToApplication"/>
+          <include name="teardown"/>
+          <include name="prerequisite"/>
+          <include name="test_IsusernameDisplayed"/>
+        </methods>
+      </class> <!-- Test.LoginTest -->
+    </classes>
+  </test> <!-- EdgeTest(failed) -->
+  <test thread-count="2" parallel="classes" name="ChromeTest(failed)">
+    <classes>
+      <class name="Test.Hometest">
+        <methods>
+          <include name="teardown"/>
+          <include name="prerequisite"/>
+          <include name="test_verifyTitle"/>
+        </methods>
+      </class> <!-- Test.Hometest -->
+      <class name="Test.LoginTest">
+        <methods>
+          <include name="test_InvalidLogin"/>
+          <include name="test_LoginToApplication"/>
+          <include name="teardown"/>
+          <include name="prerequisite"/>
+          <include name="test_IsusernameDisplayed"/>
+        </methods>
+      </class> <!-- Test.LoginTest -->
+    </classes>
+  </test> <!-- ChromeTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
