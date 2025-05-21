@@ -19,7 +19,7 @@ import Page.LoginPage;
 import junit.framework.Assert;
 import listener.TestListener;
 @Listeners(TestListener.class)
-//LoginTest class
+//LoginTest clas
 public class LoginTest extends Basetest {
 
 	WebDriver driver;
