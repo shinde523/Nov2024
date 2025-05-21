@@ -15,7 +15,7 @@ import Config.ConfigReader;
 import Page.Homepage;
 import Page.LoginPage;
 import junit.framework.Assert;
-//Hometest class
+
 public class Hometest extends Basetest {
 		WebDriver driver;
 		LoginPage login;
